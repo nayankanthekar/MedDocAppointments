@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "872078465227",
+    "firebase_url": "https://medappointment-86daf.firebaseio.com",
+    "project_id": "medappointment-86daf",
+    "storage_bucket": "medappointment-86daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872078465227:android:c999d3a98ab1c1730c234e",
+        "android_client_info": {
+          "package_name": "com.example.medappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872078465227-9kddpcei1ks6g7fde8q8pbplg2tenqa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDovHsaR5Xjse4gf9EsDLHwT0-6eqHIvls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872078465227-9kddpcei1ks6g7fde8q8pbplg2tenqa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appRegister">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        >
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:text="MedDocs Appointment App"
+            android:textSize="32dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:id="@+id/imagelogin"
+            android:src="@drawable/appontmentlogo" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagelogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="30dp"
+            android:textColor="#6D7168"
+            android:hint="User Name"
+            android:textColorHint="#6D7168"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="#6D7168"
+            android:textColorHint="#6D7168"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_marginLeft="20sp"
+
+            android:id="@+id/edttxtname"/>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail Id"
+            android:layout_below="@+id/edttxtname"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="20sp"
+            android:textColor="#6D7168"
+            android:textColorHint="#6D7168"
+            android:id="@+id/edttxtemail"/>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile No."
+            android:padding="10dp"
+            android:layout_below="@+id/edttxtemail"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="#6D7168"
+            android:textColorHint="#6D7168"
+            android:id="@+id/edttxtmobile"/>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/edttxtmobile"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="#6D7168"
+            android:textColorHint="#6D7168"
+            android:id="@+id/edttxtpassword"/>
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:lines="2"
+            android:inputType="text"
+            android:layout_below="@+id/edttxtpassword"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20sp"
+            android:textColor="#6D7168"
+            android:textColorHint="#6D7168"
+            android:id="@+id/edttxtaddress"/>
+        <!--        <RadioGroup-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_below="@+id/edttxtaddress"-->
+        <!--            android:id="@+id/rg1">-->
+        <!--            <RadioButton-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Customer"-->
+        <!--                android:checked="true"-->
+        <!--                android:textSize="26dp"-->
+        <!--                android:id="@+id/customer"/>-->
+        <!--            <RadioButton-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="60dp"-->
+        <!--                android:text="Dealer"-->
+        <!--                android:textSize="26dp"-->
+        <!--                android:id="@+id/dealer"/>-->
+        <!--        </RadioGroup>-->
+
+
+        <Button
+            android:id="@+id/btnregister1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edttxtaddress"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:background="@color/colorPrimary"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="105dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnregister1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="#1B1A1A"
+            android:text="Already Register? Login"
+            android:id="@+id/alreadyregister"
+            android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
